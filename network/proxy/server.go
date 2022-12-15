@@ -1,11 +1,13 @@
 package proxy
 
 import (
-	"core/network/channels"
-	"core/utils/collections"
 	"fmt"
 	"net"
 	"time"
+
+	"github.com/Hadaward/go-tcp-core/network/channels"
+
+	"github.com/Hadaward/go-tcp-core/utils/collections"
 )
 
 type Server struct {

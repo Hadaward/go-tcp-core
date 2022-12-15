@@ -1,8 +1,9 @@
 package utils
 
 import (
-	"core/utils/collections"
 	"encoding/binary"
+
+	"github.com/Hadaward/go-tcp-core/utils/collections"
 )
 
 type ByteArray struct {

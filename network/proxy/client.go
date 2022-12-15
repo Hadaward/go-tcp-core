@@ -1,10 +1,11 @@
 package proxy
 
 import (
-	"core/network/channels"
 	"io"
 	"net"
 	"time"
+
+	"github.com/Hadaward/go-tcp-core/network/channels"
 )
 
 type Client struct {
